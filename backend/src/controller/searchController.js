@@ -24,6 +24,6 @@ module.exports = {
         })
         //busca todos os devs num raio de 10 km
         //filtrar por tecnologias
-        return response.json({ devs:[]})
+        return response.json({ devs})
     }
 }
